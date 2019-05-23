@@ -18,13 +18,17 @@ This system features:
 ## Dependencies
 
 There are a couple of dependencies in this modulem, note that they are already in this repository
-* [Reorderable Lists](https://github.com/FellowshipOfTheGame/Reorderable-List)
+* [Reorderable List](https://github.com/cfoulston/Unity-Reorderable-List), made by [cfoulston](https://github.com/cfoulston)
 * [Hide in Inspector If](https://github.com/FellowshipOfTheGame/Hide-In-Inspector-If)
 * Installing the **Text Mesh Pro** package (Default on newer versions of Unity)
 
 ## Installing
 
 Just download and move this module's folder to your project's folder!
+
+
+### Try the test scene!
+* [Test Scene](https://github.com/FellowshipOfTheGame/Simple-Dialogue-Test)
 
 ## Instructions
 
@@ -36,7 +40,7 @@ Just download and move this module's folder to your project's folder!
 * To end dialogue abruptly, call *EndDialogue()*!
 
 **Notes:**
-* The test project available in this repository already features a button setup to skip the dialogue!
+* By using multiple assets, check for duplicated dependencies(remove the duplicates)!
 * Be aware of the namespace: Fog.Dialogue! Just add _using Fog.Dialogue_ or type the namespace when referencing the classes (Fog.Dialogue.DialogueHandler for ex.)
 * Scripting runtime version **must** be set to: ".NET 4.x"
 *  * This setting can be found under: Edit->Project Settings->Player->Other Settings->Configurations
