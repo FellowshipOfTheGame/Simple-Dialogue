@@ -15,9 +15,9 @@ This system features:
 * Option for the dialogue system to be a **Singleton**! In case you only have 1 dialogue going on at a time, this lets you call any dialogue event at any given time.
 * **Event based**!
 
-## Prerequisites
+## Dependencies
 
-There are a couple of prerequisites to compile this module:
+There are a couple of dependencies in this modulem, note that they are already in this repository
 * [Reorderable Lists](https://github.com/FellowshipOfTheGame/Reorderable-List)
 * [Hide in Inspector If](https://github.com/FellowshipOfTheGame/Hide-In-Inspector-If)
 * Installing the **Text Mesh Pro** package (Default on newer versions of Unity)
