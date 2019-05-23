@@ -40,7 +40,7 @@ Just download and move this module's folder to your project's folder!
 * To end dialogue abruptly, call *EndDialogue()*!
 
 **Notes:**
-* By using multiple assets, check for duplicated dependencies(remove the duplicates)!
+* By using multiple assets from [Assets Fog](https://github.com/FellowshipOfTheGame/Assets-FoG), check for duplicated dependencies(remove the duplicates)!
 * Be aware of the namespace: Fog.Dialogue! Just add _using Fog.Dialogue_ or type the namespace when referencing the classes (Fog.Dialogue.DialogueHandler for ex.)
 * Scripting runtime version **must** be set to: ".NET 4.x"
 *  * This setting can be found under: Edit->Project Settings->Player->Other Settings->Configurations
